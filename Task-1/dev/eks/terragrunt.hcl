@@ -1,5 +1,6 @@
 terraform {
-  source = "../../../../modules/eks"
+  source = "../../../Task-Modules/eks"
+
 }
 
 include "root" {
